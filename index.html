@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" 
+    integrity="sha512-hWn5Nb+mP5D6N1/Z+CTtxi4FV80n+zFuA3Vhu/jhL1I5oEUZ1h/ZoScNM+NO41Vqz/bziMy1r41tZZL7GoGIgw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <header>
+        <h1>Jeff</h1>
+        <p>My personal website</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+            <div class="section-content">
+            <img src="images/dumbbell.svg" alt="about me">
+            <div class="text-content">
+        <h2>About Me</h2>
+        <p>
+            Hey there, I'm Jeff, a newbie physical trainer with a passion for health and wellness. 
+            Recently, I'm attending a web development course as and I'm eager to apply my skills 
+            into the information technology industry.
+        </p>
+    </section>
+
+    <section id="skills">
+            <div class="section-content">
+            <img src="images/keyboard.jpg" alt="skills">
+            <div class="text-content">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+            <div class="section-content">
+            <img src="images/project.png" alt="projects">
+            <div class="text-content">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Canvas</h3>
+            <p>This is a group project which is a application for user to draw on it.
+               It involves HTML, CSS and JavaScript.
+               It was finished by me and other teammates and I was responsable for one of the JavaScript part.</p>
+        </div>
+        
+    </section>
+
+<footer>
+        <h2 id="contact">Contact</h2>
+        <p>
+            <img src="images/mail.svg" alt="Email icon" class="icon"> 
+            <a href="mailto:aquasfish@gmail.com">
+            aquasfish@gmail.com</p></a>  
+        <p>
+            <img src="images/github.svg" alt="GitHub icon" class="icon">
+            <a href="https://github.com/BobbyIsFat" target="_blank">
+            github.com/BobbyIsFat</p></a>
+       
+            <button id="back-to-top-btn" onclick="scrollToTop()">Back to Top</button>    
+</footer>
+
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
